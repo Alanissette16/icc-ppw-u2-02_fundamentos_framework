@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// Importar el componente Perfil desde la carpeta perfilPage
 import Perfil from "./perfilPage/Perfil"; 
 import "./App.css";
 

@@ -5,26 +5,26 @@ const Perfil = () => {
   const [lastName, setLastName] = useState<string>("Pérez");
   const [age, setAge] = useState<number>(30);
 
-  // Método que devuelve el nombre completo
+
   const getFullName = () => {
     return `${name} ${lastName} con edad ${age} años`;
   };
 
-  // Método para cambiar los datos
+  
   const changeData = () => {
     setName("Ana");
     setLastName("Gonzales");
     setAge(25);
   };
 
-  // Método para resetear los datos
+  
   const resetData = () => {
     setName("Juan");
     setLastName("Pérez");
     setAge(30);
   };
 
-  // Método para cambiar la edad
+  
   const changeAge = () => {
     setAge(18);
   };
